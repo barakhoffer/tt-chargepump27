@@ -2,7 +2,7 @@
 project:
   title:        "5V Cross-Coupled Charge Pump"      # Project title
   author:       "Barak Hoffer"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  discord:      "barakh"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "A regulated 3.3 V to 5 V cross-coupled charge pump with an on-chip trimmed bandgap reference, a vout/3 monitor and on-chip switchable test loads"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
@@ -15,7 +15,7 @@ project:
   uses_vapwr: true       # Set to true if your project uses second analog power supply (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_bh_chargepump27"
+  top_module:  "tt_um_barakhoffer_chargepump27"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:
